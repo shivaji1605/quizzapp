@@ -11,7 +11,7 @@ class mainApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: quizzAppUI(),
+        body: MyQuizzApp(),
       ),
     );
   }
